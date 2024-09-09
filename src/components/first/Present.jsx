@@ -1,15 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-const Present = ({ users }) => {
-  return (
-    <List>
-      {users.map((user) => (
-        <ListItem key={user.id}>{user.name}</ListItem>
-      ))}
-    </List>
-  );
-};
+const Present = ({ users }) => {};
 
 export default Present;
 
